@@ -1,0 +1,74 @@
+1.pair tag
+2.empty/stand alone
+***only the content inside the body part is shown in the browser***
+anyhting inside a tag is an element ( A tag is <>bo dy> or <>he ad>)
+	theres something called an empty tag(tag without element)
+
+
+<p></p> is used for paragraph wise format
+<br> an empty tag can be used to break line
+<br/> can be used for empty tags
+<hr/> can be used for empty tags
+<pre></pre> used for predetermined format
+<b></b> for bold texts
+<strong></strong> for important texts
+<i></i> for italic letter
+<em> </em> for emphasis on texts or words
+<del></del> for crossed line over words
+<sub></sub> for subscripts
+<sup></sup> for superscript
+<mark></mark> for marked or highlighted texts
+
+style="width:128x;height:128px;">
+style="float:right;width:42px;height:42px;">
+
+<body style ="background-image:url('C:\Users\Nischal\Desktop\HTML_notes\wallpapers\Thewitcher.jpg')">
+<a href ="https://www.youtube.com/"target ="_blank">click_me</a>// links for pages inside a website
+_blank new tab
+_self new window
+
+<button>CLICK ME</button>
+<ul>(unordered/bullet list)followed by <li>
+<ol type="a">(ordered list)followed by <li> (type="a" or type= "i" or type="A")  **<ol start ="50" >(starts the number from 50)
+eg.
+<ul>
+	<li>coffe</li>
+	<li>tea</li>
+</ul>
+
+ <dl> <dt> <dd>
+ eg
+ <dl>
+ <dt> coffe </dt>                                ouput : coffe
+ 																														-black/hot/cold-
+<dd>-black /hot/cold-</dt>
+ <dl>
+
+ nested lists???
+
+***** HTMl tables
+ <table>
+ 	<tr>
+	<td>1</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		</tr>
+		</table>
+*********merging column colspan , merging rows rowspan
+
+************Cellpadding and Cellspacing.....Table height and Table width
+<table border ="2"
+
+DIV block element<div> </div>
+span <span>
+iframe<iframe src="site.html"
+target
+
+<form>
+	<label for ="name">Full name</label>
+ 	<input type=" text"place holder =" " value = " " name = " "><br>
+	address :<input type=" text"place holder =" " value = " " name = " "><br>
+</form>
+
+GET POST method

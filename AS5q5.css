@@ -1,0 +1,17 @@
+ #tb,th, td {
+  border: solid 3px black;
+  border-collapse: collapse;
+  padding: 10px 12px 13px ;
+  text-align: right;
+  background-image:url();
+}
+#id2{
+  border:solid 3px violet;
+}
+#id1{
+  border:solid 3px red;
+}
+
+#id3{
+  border:solid 3px darkgreen;
+}

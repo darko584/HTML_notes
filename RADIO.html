@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <title>Radio_buttons</title>
+  <script type="text/javascript" src="radio.js">
+  </script>
+  </head>
+
+  <body>
+    <form action ="index.html" method="get">
+      <p>Select your gender</p>
+      <input type="radio" name="gender"  id = "male" value ="male"> Male<br>
+      <input type ="radio" name="gender" id ="female" value="female">
+      <label for ="female">Female</label><br>
+      <input type="radio" name="gender" value="other" id="other">
+      <label for="other">Other</label><br>
+      <br>
+      <p>Select your age</p>
+      <input type="radio" name="age" value="sm" id="ss">0-9<br>
+      <input type="radio" name="age" value="mm" id ="ml">
+      <label for = "ml">10-19</label><br>
+      <input type="radio" name ="age" value="ll" id="LL">
+      <label for = "LL">>20</label><br><br>
+      <p id ="folly"></p><br>
+      <button type="button" id="bt" name="button"
+      value="Submit" onclick="msg()">
+        SubmiT</button>
+      </form>
+    </body>
+</html>

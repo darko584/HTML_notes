@@ -1,0 +1,9 @@
+<?xml version ="1.0" encoding ="UTF-8"?>
+
+<!ELEMENT customer (firstname,lastname,age,address)>
+<!ELEMENT firstname (#PCDATA)>
+<!ELEMENT lastname (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT address (city,province)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT province (#PCDATA)>

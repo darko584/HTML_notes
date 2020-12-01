@@ -1,0 +1,919 @@
+article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block;}audio,canvas,video{display:inline-block;}audio:not([controls]){display:none;height:0;}[hidden]{display:none;}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;}body{margin:0;}a:focus{outline:thin dotted;}a:active,a:hover{outline:0;}h1{font-size:2em;margin:0.67em 0;}abbr[title]{border-bottom:1px dotted;}b,strong{font-weight:bold;}dfn{font-style:italic;}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0;}mark{background:#ff0;color:#000;}code,kbd,pre,samp{font-family:monospace,serif;font-size:1em;}pre{white-space:pre-wrap;}q{quotes:"\201C" "\201D" "\2018" "\2019";}small{font-size:80%;}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}sup{top:-0.5em;}sub{bottom:-0.25em;}img{border:0;}svg:not(:root){overflow:hidden;}figure{margin:0;}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em;}legend{border:0;padding:0;}button,input,select,textarea{font-family:inherit;font-size:100%;margin:0;}button,input{line-height:normal;}button,select{text-transform:none;}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer;}button[disabled],html input[disabled]{cursor:default;}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none;}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}textarea{overflow:auto;vertical-align:top;}table{border-collapse:collapse;border-spacing:0;}
+
+.bg_nv, .bg_skyrim1, .bg_oblivion, .bg_about, .bg_skyrim2, .bg_skyrim3 {
+
+	background-color: #000 !important;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	padding: 0;
+	margin: 0;
+	z-index: -1;
+
+}
+
+.bg_nv {
+
+	background: url('../img/444.jpg') center center no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+
+.bg_skyrim1 {
+
+	background: url('../img/666.jpg') center center no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.bg_skyrim2 {
+
+	background: url('https://i.imgur.com/PLAZxs7.jpg') center center no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.bg_skyrim3 {
+
+	background: url('https://i.imgur.com/SXFJq8p.jpg') center center no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.bg_oblivion {
+
+	background: url('../img/1212.jpg') center center no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+
+.bg_about {
+
+	background: url('../img/1313.jpg') center center no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+
+.canvas_about {margin-bottom: 30px; }
+
+a, a:focus {
+
+	outline: none;
+	text-decoration: none;
+
+}
+
+ul {
+
+	padding-inline-start: 0;
+
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.wrapper {
+
+	box-sizing: border-box;
+	width: 1240px;
+	margin: 0 auto 0 auto;
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.85);
+	-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.85);
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.85);
+
+}
+
+.gallery_slider {
+
+	background: #262626;
+	box-sizing: border-box;
+	color: #fff;
+	padding: 15px 15px 21px 15px;
+	-webkit-box-shadow: 0px 10px 10px -5px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 10px 10px -5px rgba(0,0,0,0.75);
+	box-shadow: 0px 10px 10px -5px rgba(0,0,0,0.75);
+	position: relative;
+	z-index: 4;
+}
+
+.slick-slide {  }
+
+.guide__canvas {
+
+	background: #414141;
+	padding: 0 75px 20px 75px;
+	color: #f1f1f1;
+	position: relative;
+	z-index: 3;
+	font-family: "Roboto", sans-serif;
+
+}
+
+.obl_pad { padding-top: 20px; }
+
+.page_menu {
+
+	background: #26201d;
+	padding: 0 30px 0 30px;
+	-webkit-box-shadow: 0px 10px 10px -5px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 10px 10px -5px rgba(0,0,0,0.75);
+	box-shadow: 0px 10px 10px -5px rgba(0,0,0,0.75);
+	position: relative;
+	z-index: 5;
+
+}
+
+.page_menu a { text-decoration: none; }
+
+.page_logo {
+
+	display: block;
+	width: 228px;
+	height: 55px;
+	float: left;
+	margin: 11px 50px 17px 0;
+
+}
+
+.page_logo img { max-width: 100%; }
+
+.guide__canvas a, .page_menu a {
+
+	color: #f04c34;
+
+}
+
+.menu_wrap { float: left; }
+
+.menu__click {
+	font-size: 18px;
+	margin: 0;
+	cursor: pointer;
+	color: rgb(255, 255, 255, 0.80);
+	position: relative;
+	float: left;
+}
+
+.menu__mp, .menu__mp__file {
+
+	display: none;
+	position: absolute;
+	top: 85px;
+	left: 0;
+
+}
+
+.menu__mp__inner {
+
+	width: 470px;
+}
+
+.menu__mp__inner a {
+
+	display: block;
+	color: rgb(255, 255, 255, 0.85);
+	padding: 20px 20px 20px 20px;
+	background: rgb(0, 0, 0, 0.75);
+	text-decoration: none;
+}
+
+.menu__mp__inner a span {
+
+	position: relative;
+
+}
+
+.menu__mp__inner a span::before {
+	content: '';
+	position: absolute;
+	top: calc(100% + 0px);
+	left: -5px;
+	width: calc(100% + 10px);
+	height: 2px;
+	pointer-events: none;
+	background: currentColor;
+	transform: scale3d(0,1,1);
+	transform-origin: 100% 50%;
+	transition: transform 0.5s;
+	transition-timing-function: cubic-bezier(0.8,0,0.2,1);
+}
+
+.menu__mp__inner a span::after {
+	content: '';
+	position: absolute;
+	top: calc(0% - 2px);
+	right: -5px;
+	width: calc(100% + 10px);
+	height: 2px;
+	pointer-events: none;
+	background: currentColor;
+	transform: scale3d(0,1,1);
+	transform-origin: 100% 50%;
+	transition: transform 0.5s;
+	transition-timing-function: cubic-bezier(0.8,0,0.2,1);
+}
+
+.menu__button, .menu__button__file {
+	display: block;
+	pointer-events: auto;
+	background: #1f1b19;
+	height: 85px;
+	width: 85px;
+	line-height: 85px;
+	text-align: center;
+	font-size: 32px;
+	-webkit-box-shadow: 5px 0px 5px -5px rgba(0,0,0,0.75);
+	-moz-box-shadow: 5px 0px 5px -5px rgba(0,0,0,0.75);
+	box-shadow: 5px 0px 5px -5px rgba(0,0,0,0.75);
+}
+
+.menu__button {
+
+	-webkit-box-shadow: 5px 0px 5px -5px rgba(0,0,0,0.75);
+	-moz-box-shadow: 5px 0px 5px -5px rgba(0,0,0,0.75);
+	box-shadow: 5px 0px 5px -5px rgba(0,0,0,0.75)
+
+}
+
+.menu__button__file {
+
+	-webkit-box-shadow: -5px 0px 5px -5px rgba(0,0,0,0.75);
+	-moz-box-shadow: -5px 0px 5px -5px rgba(0,0,0,0.75);
+	box-shadow: -5px 0px 5px -5px rgba(0,0,0,0.75)
+
+}
+
+.menu_right { float: right; }
+
+.about {
+
+	float: left;
+	color: rgb(255, 255, 255, 0.85) !important;
+	height: 85px;
+	line-height: 85px;
+	font-size: 18px;
+	padding: 0 20px 0 20px;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	position: relative;
+	z-index: 4;
+
+}
+
+.about_body { padding-bottom: 15px; }
+
+.about_logo { text-align: center; }
+
+.menu_discord, .menu_patreon {
+
+	color: rgb(255, 255, 255, 0.85) !important;
+	display: block;
+	float: left;
+	box-sizing: border-box;
+	height: 85px;
+	padding: 28px 0 0 0;
+
+}
+
+.menu_patreon {margin-left: 40px; }
+
+.menu_discord span, .menu_patreon span {
+
+	position: relative;
+	top: -6px;
+	margin-left: 3px;
+
+}
+
+@media screen and (min-width: 980px) { 
+
+	.menu__mp__inner a:hover span::before,
+	.menu__mp__inner a:focus span::before {
+		transform: scale3d(1,1,1);
+		transform-origin: 0% 50%;
+	}
+
+	.menu__mp__inner a:hover span::after,
+	.menu__mp__inner a:focus span::after {
+		transform: scale3d(1,1,1);
+		transform-origin: 100% 50%;
+	}
+
+}
+
+.nv_logo_main {
+
+	width: 400px;
+
+}
+
+.nv_header_bg, .skyrim_header_bg, .skyrim_header_bg_se {
+
+	box-sizing: border-box;
+	margin: 0 0 10px 0;
+	padding: 0 0 15px 0;
+	background-size: cover;
+	background-attachment: fixed;
+	-webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
+
+}
+
+.nv_header_bg {
+
+	background: url('../img/1010.jpg') center center no-repeat;
+
+}
+
+.skyrim_header_bg {
+
+	background: url('../img/777.jpg') center center no-repeat;
+	padding: 5px 10px 15px 10px;
+	margin: 0 0 15px 0;
+
+}
+
+.skyrim_header_bg_se {
+
+	background: url('https://i.imgur.com/GwHypgk.png') center center no-repeat;
+	margin: 0 0 15px 0;
+	height: 440px;
+
+}
+
+.nv_header_bg iframe, .skyrim_header_bg iframe, .sumg_vid {
+
+	-webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+
+}
+
+.skyrim_header_bg p {
+
+	color: rgb(255, 119, 0);
+	font-size: 22px;
+	text-shadow: 2px 2px 1px rgba(0, 0, 0, 1);
+
+}
+
+.sumg_g_header {
+
+	padding: 20px 0 0 0;
+	font-size: 26px;
+	font-weight: bold;
+
+}
+
+.sumg_g_header .question { font-size:  30px; }
+
+.nvu_about {
+
+	color: rgb(255, 119, 0);
+	text-align: center;
+	font-weight: bold;
+	font-size: 24px;
+	padding: 10px 0 15px 0;
+
+}
+
+.spoiler {
+
+	margin: 15px 0 10px 0;
+	color: #f1f1f1;
+	background-color: #414141;
+	padding: 5px 10px 5px 10px;
+	border: 1px solid rgba(0, 0, 0, 1);
+	border-radius: 2px;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+	cursor: pointer !important;
+
+}
+
+.spoiler:focus {
+
+	outline: none;
+
+}
+
+.spoiler_wrapper {
+
+	display: none;
+	background: #262626;
+	box-sizing: border-box;
+	padding: 0 20px 10px 20px;
+
+}
+
+.spoiler_wrapper .spoiler_wrapper {
+
+	padding: 10px 20px 10px 20px;
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.85);
+	-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.85);
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.85);
+
+}
+
+.center_img_nopdngbgtm {
+
+	padding-bottom: 0 !important;
+
+}
+
+#button-top {
+  display: inline-block;
+  background-color: #cc5f00;
+  width: 36px;
+  height: 36px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+  text-decoration: none;
+  color: #ede2dd;
+  font-size: 20px;
+  line-height: 38px;
+  font-weight: normal;
+  font-style: normal;
+}
+#button-top:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+#button-top:active {
+  background-color: #555;
+}
+.button-top-show {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+.center_img { text-align: center; padding: 20px 0 20px 0; }
+
+.guide_faq {
+
+	font-size: 14px;
+
+}
+
+.image_top_name {
+
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	margin: 15px 0 10px 0;
+
+}
+
+.perks_line {
+
+	margin: 5px 0 -5px 0;
+
+}
+
+.section_name {
+
+	color: #ff7700;
+	font-weight: bold;
+	font-size: 24px;
+	margin: 15px 0 7px 0;
+
+}
+
+.section_name_smol {
+
+	font-size: 16px;
+	color: #dc9d23;
+
+}
+
+.version_3 {
+
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 10px;
+
+}
+
+.version_4 {
+
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: -15px;
+
+}
+
+
+.text-center {
+
+	text-align: center;
+
+}
+
+.step_title {
+
+	color: #ff7700;
+	font-weight: bold;
+	display: block;
+
+}
+
+.note_pink {
+
+	color: #e06666;
+
+}
+
+.note_red {
+
+	color: #ff0000;
+	font-weight: bold;
+
+}
+
+.color_blue {
+
+	color: #00ffff;
+
+}
+
+.color_soft-blue {
+
+	color: #6fa8dc;
+
+}
+
+.color_tasty-yellow {
+
+	color: #df5f2d;
+
+}
+
+.display-inline {
+
+	display: inline !important;
+
+}
+
+.underline {
+
+	text-decoration: underline;
+
+}
+
+.mod_name {
+
+	font-weight: bold;
+	display: block;
+	margin: 3px 0 0 0;
+
+}
+
+.mod_line {
+
+	padding-bottom: 13px;
+
+}
+
+.mod_line_nopadding {
+
+	padding-bottom: 0;
+
+}
+
+.mod_line .mod_name {
+
+	display: inline-block;
+	font-weight:normal;
+
+}
+
+.mod_line span {
+
+	display: block;
+	padding-top: 1px;
+
+}
+
+.enb_compaitbility {
+
+	display: block;
+
+}
+
+.enb_compaitbility span {
+
+	color: #ff7700;
+
+}
+
+.no-pad-bot {
+
+	padding-bottom: 0;
+
+}
+
+.no-marg-bot {
+
+	margin-bottom: 0;
+
+}
+
+.fps_hit {
+
+	color: #ff0000;
+
+}
+
+.text_yellow {
+
+	color: #dc9d23;
+	display: block;
+
+}
+
+.bold {
+
+	font-weight: bold;
+
+}
+
+.text-center {
+
+	text-align:  center;
+
+}
+
+audio {
+
+	margin: 5px 0 10px 0;
+
+}
+
+audio::-webkit-media-controls-panel {
+
+
+
+}
+
+#fvpp-blackout {
+  display: none;
+  z-index: 499;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #000;
+  opacity: 0.5;
+}
+
+#my-welcome-message {
+  display: none;
+  z-index: 500;
+  position: fixed;
+  width: 36%;
+  left: 30%;
+  top: 20%;
+  padding: 20px 2%;
+  font-family: Calibri, Arial, sans-serif;
+  background-color: rgb(232, 91, 70);
+  border-radius: 5px;
+  color: #000;
+}
+
+#my-welcome-message h2 {
+
+	font-size: 30px;
+
+}
+
+#my-welcome-message p {
+
+	font-weight: bold;
+	font-size: 20px;
+
+}
+
+#my-welcome-message a {
+
+	color: rgba(255, 255, 255, 0.85);
+
+}
+
+#maintenance {
+
+  z-index: 500;
+  position: fixed;
+  width: 36%;
+  left: 30%;
+  top: 20%;
+  padding: 20px 2%;
+  font-family: Calibri, Arial, sans-serif;
+  background-color: rgb(232, 91, 70);
+  border-radius: 5px;
+  color: #000;
+
+}
+
+#maintenance h2 {
+
+	font-size: 30px;
+
+}
+
+#fvpp-close {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 24px;
+  color: #000 !important;
+}
+
+@media (max-width: 1400px) {
+
+	.wrapper { width: 1100px; }
+
+	.guide__canvas { padding: 0 50px 20px 50px; } 
+
+	iframe { max-width: 90%; max-height: 480px; }
+
+}
+
+@media (max-width: 1250px) {
+
+	.wrapper { width: 950px; }
+
+	.guide__canvas { padding: 0 40px 20px 40px; }
+
+	img { max-width: 100%; }
+
+	iframe { max-width: 85%; max-height: 360px; }
+
+	.skyrim_header_bg img { max-height: 220px; }
+
+	.nv_header_bg img { max-height: 250px; width: auto; }
+
+	.menu_patreon { margin-left: 25px; }
+
+}
+
+@media (max-width: 1100px) {
+
+	.wrapper { width: 850px; }
+
+	.nv_header_bg img { max-height: 220px; }
+
+	.page_menu { padding: 15px 20px 20px 20px; height: 90px; box-sizing: border-box; }
+
+	.page_logo { margin: 0 20px 0 0; }
+
+	.menu__button, .menu__button__file {
+
+		width: 50px;
+		height: 50px;
+		line-height: 50px;
+		font-size: 20px;
+		position: relative;
+		z-index: 3;
+
+	}
+
+	.about {
+
+		height: 48px;
+		line-height: 48px;
+		top: 1px;
+		font-size: 18px;
+
+	}
+
+	.menu_right { padding: 0 0 0 0; }
+
+	.menu_right a { padding: 0; }
+
+	.menu_right a span { display: none; }
+
+	.menu_wrap { padding-top: 5px; }
+
+	.menu_patreon, .menu_discord {
+
+		height: 55px;
+		display: block;
+
+	}
+
+	.menu_patreon img, .menu_discord img { display: none; }
+
+	.menu_patreon { margin-left: 20px; width: 26px; background: url('../img/patreon_icon.png') center center no-repeat; }
+
+	.menu_discord { width: 23px; background: url('../img/discord_icon.png') center center no-repeat; }
+
+	.menu__mp, .menu__mp__file {
+
+		position: fixed;
+		top: 90px;
+		width: 100%;
+
+	}
+
+	.menu__mp__inner {
+
+		width: 100%;
+		text-align: center;
+
+	}
+
+	.menu__mp__inner a { font-size: 16px; padding: 10px 15px 10px 15px; }
+
+	.menu__mp__inner a:first-child { padding-top: 20px; }
+
+	.menu__mp__inner a:last-child { padding-bottom: 20px; }
+
+}
+
+@media (max-width: 950px) {
+
+	.wrapper { width: 90%; }
+
+	.guide__canvas { padding: 0 25px 20px 25px; }
+
+	iframe { max-width: 80%; max-height: 300px; }
+
+	.skyrim_header_bg img { max-height: 150px; }
+
+	.nv_header_bg img { max-height: 190px; }
+
+	.menu__mp__inner a { font-size: 14px; padding: 7px 15px 8px 15px; }
+
+	.menu__mp__inner a:first-child { padding-top: 15px; }
+
+}
+
+@media (max-width: 750px) {
+
+	iframe { max-width: 80%; max-height: 200px; }
+
+	.page_menu { height: 75px; }
+
+	.page_logo {
+
+		display: block;
+		width: 59px;
+		height: 40px;
+		background: url('../img/page_logo_face.png') center center no-repeat;
+
+	}
+
+	.page_logo img { display: none; }
+
+	.about {
+
+		height: 38px;
+		line-height: 38px;
+		top: 1px;
+		font-size: 16px;
+
+	}
+
+	.menu_wrap { padding-top: 1px; }
+
+	.menu__button, .menu__button__file {
+
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+		font-size: 18px;
+
+	}
+
+	.menu__mp, .menu__mp__file {
+
+		top: 75px;
+
+	}
+
+	.menu_right { padding-top: 2px; }
+
+	.menu_patreon, .menu_discord { height: 40px; }
+
+}

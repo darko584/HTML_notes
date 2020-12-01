@@ -1,0 +1,11 @@
+<?xml version ="1.0" encoding ="UTF-8"?>
+<!DOCTYPE customer SYSTEM "Xmli.dtd">
+<customer>
+          <firstname>RAm</firstname>
+          <lastname>bahaha</lastname>
+          <age>one</age>
+          <address>
+              <city>kathmandu</city>
+              <province>three</province>
+            </address>
+</customer>

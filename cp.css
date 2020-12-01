@@ -1,0 +1,192 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin:0;
+}
+
+.bg{
+  max-width :100%;
+  max-height: 100%;
+  position:static;
+  padding:0;
+  left:0;
+  top:0;
+  overflow: hidden;
+  background-color: black;
+z-index: -1;
+}
+
+#cp{
+  max-height: 110%;
+  max-width: 100%;
+  position: relative;
+}
+.navsymbol{
+  max-width:100%;
+  position:fixed;
+  top:0;
+  left:0;
+  overflow: hidden;
+  background-color: black;
+  opacity: 0.8;
+
+}
+
+.logo-link{
+margin-left: 10px;
+position: fixed;
+
+}
+
+.navhead{
+  width:2000px; /*max width for responsive design*/
+  height:43.5px;
+  position:fixed;
+  top:0px;
+  left:0px;
+  /*left:129px;*/
+  background-color: black;
+  opacity: 0.8;
+  margin-top:10px;
+  /*margin-left: 128px;*/
+  padding-left:700px;
+ overflow: hidden;
+
+
+}
+ul{
+  display: inline;
+  margin: 0;
+  padding:0;
+
+}
+
+ul li .icon{
+display: none;
+
+
+}
+li:hover{
+  cursor:pointer;
+}
+/*#nav1{
+  list-style-type: none;
+  margin-top: 5px;
+  padding-top:5px;
+  padding-bottom:  10px;
+  height:50px;
+  position:relative;
+  overflow: hidden;
+  background-color:black;
+  opacity: 0.5;
+}*/
+
+/*#subnav1{
+
+  list-style: none;
+}*/
+ul li {
+ display: inline-block;
+ transition-duration: 0.5s;
+ font-family: BlenderProBold,sans-serif;
+ text-align: center;
+
+}
+ul li ul {
+  visibility: hidden;
+  opacity: 0;
+  min-width: 5rem;
+  position: fixed;
+  /*margin: 0 0 0 195px;*/
+  display: none;
+}
+ul li ul li {
+  background: black;
+
+  display: block;
+
+
+}
+
+/*li{
+  float:left;
+  margin:5px 0 0 30px;
+  font-family: BlenderProBold,sans-serif;
+}*/
+li a {
+  display: block;
+  color:white;
+  font-size:20px;
+  padding:14px;
+
+  text-decoration: none;
+
+}
+
+li a:hover{
+  background-color:#111111;
+}
+
+ ul li:hover > ul,ul li:focus-within>ul,ul li ul:hover{
+   visibility:visible;
+   opacity: 0.8;
+   display:block;
+ }
+
+@media screen and (max-width: 600px) {
+ .navhead #nav1 #n11 a:not(:first-child) {
+  display: none;
+}
+.navhead #nav1 #n11 a.icon{
+  float:right;
+  display: block;
+ }
+}
+.page2{
+  max-width :100%;
+  height: 1020px;
+  position:static;
+  color: red;
+  background-color: yellow;
+  overflow-y: scroll;
+}
+.I-content{
+  position:static;
+  max-width: 100%;
+  background-color:black;
+  opacity:0.9;
+}
+.footer-top-nav{
+  display: inline;
+  padding: 0;
+  margin: 0;
+}
+.footer-top-nav .footer-nav-for-social{
+  color:white;
+  font-size: 140%;
+}
+.footer-top-nav .socialfooter {
+list-style-type: none;
+}
+
+.fa-instagram-square {
+    color: red;
+    font-size: 120%;
+    position: relative;
+    size:100%
+}
+.logo-facebook{
+  background-image: url(file:///C:/Users/Nischal/Desktop/HTML_notes/1384004-social-media/svg/001-facebook.svg);
+}
+.logo{
+  display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    width: 25px;
+    height: 30px;
+    padding-left: 50px;
+  background-color: white;
+}

@@ -1,0 +1,13 @@
+.right{
+
+  background-color:lightblue;
+  float:left;
+  width:100%;
+  padding:10px 15px;
+
+}
+#id{
+float:left;
+max-width:100%;
+height:auto;
+}
